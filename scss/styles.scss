@@ -1,3 +1,5 @@
+@import '_variables';
+
 .background {
     width: 100%;
     height: 3244px;
@@ -7,17 +9,17 @@
 }
 
 header {
-    color: #4F5665;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    color: $main__color;
+    font-family: $main__font;
+    font-size: $main__font-size;
+    font-weight: $main__font-weight;
 }
 
 body {
-    color: #4F5665;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    color: $main__color;
+    font-family: $main__font;
+    font-size: $main__font-size;
+    font-weight: $main__font-weight;
 }
 
 ul {
